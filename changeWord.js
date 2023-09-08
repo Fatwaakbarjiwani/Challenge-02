@@ -1,5 +1,5 @@
 function changeWord(changedText, selectedText, text) {
-  const kalimatbaru = text.replace(changedText,selectedText);
+  const kalimatbaru = text.replaceAll(changedText,selectedText);
   console.log("before :",text);
   return `after : ${kalimatbaru}`;
 }
