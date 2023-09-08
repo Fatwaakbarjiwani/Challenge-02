@@ -7,7 +7,7 @@ function getAngkaTerbesarKedua(personName) {
     });
     nilaiTerbesarKedua = Math.max.apply(Math, hapusTerbesar);
     return nilaiTerbesarKedua; 
-  } else if (personName != Array && personName != null) {
+  } else if (personName != null) {
     return `EROR : parameter yang dimasukkan bukan merupakan array`;
   } else{
     return `EROR : parameter input tidak boleh kosong`;
